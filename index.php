@@ -61,7 +61,7 @@
                             $row_class = '';
                             if ($days_until_expiration < 0) {
                                 $row_class = 'table-danger';
-                            } else if ($days_until_expiration >= 0 && $days_until_expiration <= 3 && $days_until_expiration != "") {
+                            } else if ($days_until_expiration > 0 && $days_until_expiration <= 3) {
                                 $row_class = 'table-warning';
                             }
 
